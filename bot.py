@@ -591,14 +591,16 @@ def top_players_for_map(sample, map_name):
 # =========================================================
 
 def format_team_output(team_name, sample):
-
     lines = []
-    lines.append(f"{team_name} Last {sample['map_sample_size']} Maps")
+
+    series_count = sample["series_sample_size"]
+    map_count = sample["map_sample_size"]
+
+    lines.append(f"{team_name.upper()} played {map_count} maps across {series_count} series")
     lines.append("")
 
     bans = Counter(sample["ban_counter"])
     picks = Counter(sample["pick_counter"])
-    series_total = sample["series_sample_size"]
 
     ban_maps = [(m, bans[m]) for m in CORE_MAPS if bans.get(m, 0) > 0]
     pick_maps = [(m, picks[m]) for m in CORE_MAPS if picks.get(m, 0) > 0]
@@ -607,19 +609,19 @@ def format_team_output(team_name, sample):
         if bans.get(m, 0) == 0 and picks.get(m, 0) == 0
     ]
 
-    ban_maps.sort(key=lambda x: -x[1])
-    pick_maps.sort(key=lambda x: -x[1])
+    ban_maps.sort(key=lambda x: (-x[1], x[0]))
+    pick_maps.sort(key=lambda x: (-x[1], x[0]))
 
     if ban_maps:
         lines.append("Banned")
         for m, v in ban_maps:
-            lines.append(f"{m:<10} {v}/{series_total}")
+            lines.append(f"{m:<10} {v}/{series_count}")
         lines.append("")
 
     if pick_maps:
         lines.append("Picked")
         for m, v in pick_maps:
-            lines.append(f"{m:<10} {v}/{series_total}")
+            lines.append(f"{m:<10} {v}/{series_count}")
         lines.append("")
 
     if ignored_maps:
@@ -629,7 +631,6 @@ def format_team_output(team_name, sample):
         lines.append("")
 
     lines.append("Roster")
-
     for i, p in enumerate(sample["roster"], 1):
         lines.append(f"{i} {p['name']}")
 
