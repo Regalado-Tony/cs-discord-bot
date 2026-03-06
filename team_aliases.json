@@ -1,0 +1,572 @@
+{
+    "vitality": {
+        "team_id": 667,
+        "slug": "vitality",
+        "name": "Vitality",
+        "aliases": []
+    },
+    "furia": {
+        "team_id": 648,
+        "slug": "furia",
+        "name": "FURIA",
+        "aliases": []
+    },
+    "mouz": {
+        "team_id": 765,
+        "slug": "mousesports",
+        "name": "MOUZ",
+        "aliases": []
+    },
+    "falcons": {
+        "team_id": 2713,
+        "slug": "falcons-esports",
+        "name": "Falcons",
+        "aliases": []
+    },
+    "parivision": {
+        "team_id": 8171,
+        "slug": "parivision",
+        "name": "PARIVISION",
+        "aliases": []
+    },
+    "spirit": {
+        "team_id": 654,
+        "slug": "spirit",
+        "name": "Spirit",
+        "aliases": []
+    },
+    "aurora": {
+        "team_id": 3598,
+        "slug": "aurora-gaming",
+        "name": "Aurora",
+        "aliases": []
+    },
+    "natusvincere": {
+        "team_id": 787,
+        "slug": "natus-vincere",
+        "name": "Natus Vincere",
+        "aliases": []
+    },
+    "themongolz": {
+        "team_id": 736,
+        "slug": "the-mongolz",
+        "name": "The MongolZ",
+        "aliases": []
+    },
+    "astralis": {
+        "team_id": 794,
+        "slug": "astralis",
+        "name": "Astralis",
+        "aliases": []
+    },
+    "fut": {
+        "team_id": 20832,
+        "slug": "fut-cs2",
+        "name": "FUT",
+        "aliases": []
+    },
+    "g2": {
+        "team_id": 793,
+        "slug": "g2",
+        "name": "G2",
+        "aliases": []
+    },
+    "faze": {
+        "team_id": 791,
+        "slug": "faze",
+        "name": "FaZe",
+        "aliases": []
+    },
+    "gamerlegion": {
+        "team_id": 594,
+        "slug": "gamerlegion",
+        "name": "GamerLegion",
+        "aliases": []
+    },
+    "heroic": {
+        "team_id": 759,
+        "slug": "heroic",
+        "name": "HEROIC",
+        "aliases": []
+    },
+    "monte": {
+        "team_id": 3581,
+        "slug": "monte",
+        "name": "Monte",
+        "aliases": []
+    },
+    "gentlemates": {
+        "team_id": 21396,
+        "slug": "gentle-mates-cs",
+        "name": "Gentle Mates",
+        "aliases": []
+    },
+    "legacy": {
+        "team_id": 8118,
+        "slug": "legacy-br",
+        "name": "Legacy",
+        "aliases": []
+    },
+    "betboom": {
+        "team_id": 7498,
+        "slug": "betboom-team",
+        "name": "BetBoom",
+        "aliases": []
+    },
+    "hotu": {
+        "team_id": 2720,
+        "slug": "hotu",
+        "name": "HOTU",
+        "aliases": []
+    },
+    "b8": {
+        "team_id": 1539,
+        "slug": "b8",
+        "name": "B8",
+        "aliases": []
+    },
+    "nrg": {
+        "team_id": 751,
+        "slug": "nrg",
+        "name": "NRG",
+        "aliases": []
+    },
+    "pain": {
+        "team_id": 637,
+        "slug": "pain-gaming",
+        "name": "paiN",
+        "aliases": []
+    },
+    "illwill": {
+        "team_id": 21842,
+        "slug": "illwill",
+        "name": "illwill",
+        "aliases": []
+    },
+    "3dmax": {
+        "team_id": 696,
+        "slug": "3dmax",
+        "name": "3DMAX",
+        "aliases": []
+    },
+    "bc.game": {
+        "team_id": 10844,
+        "slug": "bc-game",
+        "name": "BC.Game",
+        "aliases": []
+    },
+    "k27": {
+        "team_id": 10718,
+        "slug": "k27",
+        "name": "K27",
+        "aliases": []
+    },
+    "sharks": {
+        "team_id": 747,
+        "slug": "sharks",
+        "name": "Sharks",
+        "aliases": []
+    },
+    "sinners": {
+        "team_id": 200,
+        "slug": "sinners",
+        "name": "SINNERS",
+        "aliases": []
+    },
+    "100thieves": {
+        "team_id": 464,
+        "slug": "100-thieves",
+        "name": "100 Thieves",
+        "aliases": []
+    },
+    "ecstatic": {
+        "team_id": 2245,
+        "slug": "ecstatic",
+        "name": "ECSTATIC",
+        "aliases": []
+    },
+    "flyquest": {
+        "team_id": 10398,
+        "slug": "flyquest",
+        "name": "FlyQuest",
+        "aliases": []
+    },
+    "9ine": {
+        "team_id": 495,
+        "slug": "9ine",
+        "name": "9INE",
+        "aliases": []
+    },
+    "m80": {
+        "team_id": 7430,
+        "slug": "m80-cs-go",
+        "name": "M80",
+        "aliases": []
+    },
+    "9z": {
+        "team_id": 324,
+        "slug": "9z",
+        "name": "9z",
+        "aliases": []
+    },
+    "fnatic": {
+        "team_id": 786,
+        "slug": "fnatic",
+        "name": "fnatic",
+        "aliases": []
+    },
+    "mibr": {
+        "team_id": 755,
+        "slug": "mibr",
+        "name": "MIBR",
+        "aliases": []
+    },
+    "passionua": {
+        "team_id": 7631,
+        "slug": "passion-ua",
+        "name": "Passion UA",
+        "aliases": []
+    },
+    "kolesie": {
+        "team_id": 20987,
+        "slug": "kolesie",
+        "name": "KOLESIE",
+        "aliases": []
+    },
+    "nemiga": {
+        "team_id": 655,
+        "slug": "nemiga",
+        "name": "Nemiga",
+        "aliases": []
+    },
+    "big": {
+        "team_id": 756,
+        "slug": "big",
+        "name": "BIG",
+        "aliases": []
+    },
+    "ninjasinpyjamas": {
+        "team_id": 785,
+        "slug": "nip",
+        "name": "Ninjas in Pyjamas",
+        "aliases": []
+    },
+    "magic": {
+        "team_id": 22218,
+        "slug": "magic-ru",
+        "name": "magic",
+        "aliases": []
+    },
+    "whitebird": {
+        "team_id": 22230,
+        "slug": "whitebird",
+        "name": "WHITEBIRD",
+        "aliases": []
+    },
+    "ence": {
+        "team_id": 754,
+        "slug": "ence",
+        "name": "ENCE",
+        "aliases": []
+    },
+    "imperial": {
+        "team_id": 1430,
+        "slug": "imperial",
+        "name": "Imperial",
+        "aliases": []
+    },
+    "tdk": {
+        "team_id": 22414,
+        "slug": "tdk",
+        "name": "TDK",
+        "aliases": []
+    },
+    "nemesis": {
+        "team_id": 21388,
+        "slug": "team-nemesis-cs",
+        "name": "Nemesis",
+        "aliases": []
+    },
+    "nucleartigeres": {
+        "team_id": 18539,
+        "slug": "nuclear-tigeres",
+        "name": "Nuclear TigeRES",
+        "aliases": []
+    },
+    "cybershoke": {
+        "team_id": 7429,
+        "slug": "cybershoke",
+        "name": "CYBERSHOKE",
+        "aliases": []
+    },
+    "mouznxt": {
+        "team_id": 1455,
+        "slug": "mouz-nxt",
+        "name": "MOUZ NXT",
+        "aliases": []
+    },
+    "betclic": {
+        "team_id": 11101,
+        "slug": "betclic-apogee-esports",
+        "name": "Betclic",
+        "aliases": []
+    },
+    "eyeballers": {
+        "team_id": 3254,
+        "slug": "eyeballers",
+        "name": "EYEBALLERS",
+        "aliases": []
+    },
+    "liquid": {
+        "team_id": 790,
+        "slug": "liquid",
+        "name": "Liquid",
+        "aliases": []
+    },
+    "bestia": {
+        "team_id": 5701,
+        "slug": "bestia",
+        "name": "BESTIA",
+        "aliases": []
+    },
+    "friendlycampers": {
+        "team_id": 22041,
+        "slug": "friendlycampers",
+        "name": "Friendly Campers",
+        "aliases": []
+    },
+    "tricked": {
+        "team_id": 647,
+        "slug": "tricked",
+        "name": "Tricked",
+        "aliases": []
+    },
+    "bet-m": {
+        "team_id": 22191,
+        "slug": "thirtythree",
+        "name": "BET-M",
+        "aliases": []
+    },
+    "innercircle": {
+        "team_id": 19186,
+        "slug": "inner-circle-esports",
+        "name": "Inner Circle",
+        "aliases": []
+    },
+    "gaimingladiators": {
+        "team_id": 2698,
+        "slug": "gaimingladiators",
+        "name": "Gaimin Gladiators",
+        "aliases": []
+    },
+    "alliance": {
+        "team_id": 8221,
+        "slug": "alliance-cs",
+        "name": "Alliance",
+        "aliases": []
+    },
+    "favbet": {
+        "team_id": 10601,
+        "slug": "favbet",
+        "name": "FAVBET",
+        "aliases": []
+    },
+    "genone": {
+        "team_id": 1406,
+        "slug": "genone",
+        "name": "GenOne",
+        "aliases": []
+    },
+    "novaq": {
+        "team_id": 20024,
+        "slug": "team-novaq",
+        "name": "NOVAQ",
+        "aliases": []
+    },
+    "redcanids": {
+        "team_id": 554,
+        "slug": "red-canids-cs-go",
+        "name": "RED Canids",
+        "aliases": []
+    },
+    "oramond": {
+        "team_id": 21684,
+        "slug": "oramond",
+        "name": "Oramond",
+        "aliases": []
+    },
+    "sashi": {
+        "team_id": 3081,
+        "slug": "sashi-esport",
+        "name": "Sashi",
+        "aliases": []
+    },
+    "fluxo": {
+        "team_id": 3661,
+        "slug": "fluxo",
+        "name": "Fluxo",
+        "aliases": []
+    },
+    "ex-ruby": {
+        "team_id": 22408,
+        "slug": "ex-ruby",
+        "name": "ex-RUBY",
+        "aliases": []
+    },
+    "voca": {
+        "team_id": 21840,
+        "slug": "voca",
+        "name": "Voca",
+        "aliases": []
+    },
+    "shinden": {
+        "team_id": 11174,
+        "slug": "shinden",
+        "name": "ShindeN",
+        "aliases": []
+    },
+    "jijiehao": {
+        "team_id": 3869,
+        "slug": "jijiehao",
+        "name": "JiJieHao",
+        "aliases": []
+    },
+    "1win": {
+        "team_id": 238,
+        "slug": "1win",
+        "name": "1win",
+        "aliases": []
+    },
+    "ww": {
+        "team_id": 16748,
+        "slug": "ww",
+        "name": "WW",
+        "aliases": []
+    },
+    "phantom": {
+        "team_id": 19204,
+        "slug": "phantom-esports",
+        "name": "Phantom",
+        "aliases": []
+    },
+    "arcred": {
+        "team_id": 2575,
+        "slug": "arcred",
+        "name": "ARCRED",
+        "aliases": []
+    },
+    "sangal": {
+        "team_id": 36,
+        "slug": "sangal",
+        "name": "Sangal",
+        "aliases": []
+    },
+    "am": {
+        "team_id": 20534,
+        "slug": "am-gaming",
+        "name": "AM",
+        "aliases": []
+    },
+    "thehuns": {
+        "team_id": 9127,
+        "slug": "the-huns-esports",
+        "name": "The Huns",
+        "aliases": []
+    },
+    "omega": {
+        "team_id": 22014,
+        "slug": "omega-kz",
+        "name": "Omega",
+        "aliases": []
+    },
+    "johnnyspeeds": {
+        "team_id": 9847,
+        "slug": "johnny-speeds",
+        "name": "Johnny Speeds",
+        "aliases": []
+    },
+    "eternalfire": {
+        "team_id": 1527,
+        "slug": "eternal-fire",
+        "name": "Eternal Fire",
+        "aliases": []
+    },
+    "runeeaters": {
+        "team_id": 5702,
+        "slug": "rune-eaters-esports",
+        "name": "Rune Eaters",
+        "aliases": []
+    },
+    "lazercats": {
+        "team_id": 5391,
+        "slug": "lazer-cats",
+        "name": "Lazer Cats",
+        "aliases": []
+    },
+    "marsborne": {
+        "team_id": 19187,
+        "slug": "marsborne",
+        "name": "Marsborne",
+        "aliases": []
+    },
+    "ex-fingerscrossed": {
+        "team_id": 22916,
+        "slug": "ex-fingers-crossed",
+        "name": "ex-Fingers Crossed",
+        "aliases": []
+    },
+    "loskogutos": {
+        "team_id": 1093,
+        "slug": "los-kogutos",
+        "name": "los kogutos",
+        "aliases": []
+    },
+    "acend": {
+        "team_id": 21980,
+        "slug": "acend-cs2",
+        "name": "Acend",
+        "aliases": []
+    },
+    "morningstar": {
+        "team_id": 22125,
+        "slug": "morningstar",
+        "name": "Morningstar",
+        "aliases": []
+    },
+    "oddik": {
+        "team_id": 3370,
+        "slug": "oddik",
+        "name": "ODDIK",
+        "aliases": []
+    },
+    "sparta": {
+        "team_id": 20369,
+        "slug": "sparta",
+        "name": "SPARTA",
+        "aliases": []
+    },
+    "astral": {
+        "team_id": 21062,
+        "slug": "astral",
+        "name": "ASTRAL",
+        "aliases": []
+    },
+    "og": {
+        "team_id": 395,
+        "slug": "og",
+        "name": "OG",
+        "aliases": []
+    },
+    "unity": {
+        "team_id": 3829,
+        "slug": "unity",
+        "name": "UNiTY",
+        "aliases": []
+    },
+    "galorys": {
+        "team_id": 10049,
+        "slug": "galorys-cs",
+        "name": "Galorys",
+        "aliases": []
+    }
+}
