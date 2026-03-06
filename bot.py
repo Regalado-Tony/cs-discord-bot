@@ -957,6 +957,9 @@ async def on_message(message):
 
 if __name__ == "__main__":
 
-    token = read_token(DISCORD_TOKEN_FILE)
+    token = os.getenv("DISCORD_TOKEN")
+
+    if not token:
+        token = read_token(DISCORD_TOKEN_FILE)
 
     client.run(token)
