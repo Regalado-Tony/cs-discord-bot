@@ -224,9 +224,9 @@ def api_recent_matches(team_id):
     url = (
         f"{BO3_API_BASE}/matches"
         f"?page[offset]=0"
-        f"&page[limit]=40"
+        f"&page[limit]=60"
         f"&sort=-start_date"
-        f"&filter[matches.status][in]=current,upcoming,finished,defwin"
+        f"&filter[matches.status][in]=finished,defwin"
         f"&filter[matches.team_ids][overlap]={team_id}"
         f"&filter[matches.discipline_id][eq]=1"
         f"&with=teams,tournament,ai_predictions,games,match_maps"
@@ -303,6 +303,10 @@ def build_team_sample(team, last_n):
     ban_counter = Counter()
     pick_counter = Counter()
 
+    print(f"TEAM: {team['name']} ({team_id})")
+    print(f"REQUESTED MAP SAMPLE: {last_n}")
+    print(f"RECENT MATCHES RETURNED: {len(recent_matches)}")
+
     for match in recent_matches:
         match_maps = match.get("match_maps", [])
         games = match.get("games", [])
@@ -350,6 +354,13 @@ def build_team_sample(team, last_n):
         if not series_games:
             continue
 
+        print(
+            "MATCH",
+            match.get("slug"),
+            "| match_maps =", len(match_maps),
+            "| games =", len(series_games)
+        )
+
         used_series.append(match)
 
         for g in series_games:
@@ -367,6 +378,11 @@ def build_team_sample(team, last_n):
 
         if len(selected_map_entries) >= last_n:
             break
+
+    print(f"USED SERIES: {len(used_series)}")
+    print(f"SELECTED MAP ENTRIES: {len(selected_map_entries)}")
+    print("BAN COUNTS:", dict(ban_counter))
+    print("PICK COUNTS:", dict(pick_counter))
 
     if not selected_map_entries:
         raise RuntimeError("No usable recent maps found")
